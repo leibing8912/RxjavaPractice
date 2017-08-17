@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pj.lb.rxjavapractice.MainActivity"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/btn_simple_rx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="simple_rx"/>
+    <Button
+        android:id="@+id/btn_rx_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rx_map"/>
+</LinearLayout>
